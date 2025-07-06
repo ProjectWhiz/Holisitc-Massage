@@ -53,6 +53,28 @@ function FAQ() {
                         You can request adjustments in pressure, technique, or even stop the session if needed.
                     </p>
                 </div>
+                <div>
+                    <h2> How often should I get massages? </h2>
+                    <p>
+                        The frequency of massages depends on your individual needs and goals. 
+                        Some clients benefit from weekly sessions, while others may prefer monthly visits. 
+                        After your initial session, we can discuss a personalized plan that works for you.
+                    </p>
+                </div>
+                <div>
+                    <h2> When should I avoid massage? </h2>
+                    <p>
+                        You should avoid massage if you have any contagious illnesses, open wounds, or severe skin conditions. 
+                        Additionally, if you are experiencing acute pain or injury, it's best to consult with a healthcare professional before getting a massage.
+                    </p>
+                </div>
+                <div>
+                    <h2> What payment methods do you accept? </h2>
+                    <p>
+                        We accept various payment methods, including cash, credit/debit cards, and mobile payment options. 
+                        Please inquire about specific payment methods when booking your appointment.
+                    </p>
+                </div>
                 <p className="gray-text">
                     If you have any questions that are not answered here, please feel free to reach out and ask me directly.
                 </p>

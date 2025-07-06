@@ -5,6 +5,7 @@ import MissionSection from './components/MissionSection';
 import VisionSection from './components/VisionSection';
 import ImpactSection from './components/ImpactSection';
 import DonationSection from './components/DonationSection';
+import FaqSection from './components/FaqSection';
 /*import FooterSection from './components/FooterSection';*/
 import HeroNavbar from './components/HeroNavbar';
 import FooterSection from './components/FooterSection';
@@ -18,9 +19,9 @@ function Home() {
         <HeroSection />
         {/*Removed the mission section to merge into vision section, place back if needed( <MissionSection /> )*/}
         <VisionSection />
-        
         <ImpactSection />
-        <DonationSection />
+        <FaqSection />
+        {/*<DonationSection />*/}
         <FooterSection />
     </div>
     );
