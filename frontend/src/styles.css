@@ -1706,3 +1706,78 @@ img, video, .mission-image, .vision-image, .impact-card-image {
   height: auto;
   display: block;
 }
+
+/* =========================
+   Extra Mobile Fixes
+   ========================= */
+
+@media (max-width: 500px) {
+  .hero-title {
+    font-size: 1.3rem !important;
+    line-height: 1.1;
+    word-break: break-word;
+  }
+  .vision-title,
+  .mission-heading,
+  .impact-title,
+  .pricing-title,
+  .faq_title {
+    font-size: 1.1rem !important;
+  }
+  .mission-text,
+  .vision-text,
+  .review-text,
+  .carousel-text {
+    font-size: 0.95rem !important;
+    line-height: 1.2;
+    word-break: break-word;
+  }
+  .impact-review-card,
+  .carousel-image-container,
+  .carousel-text {
+    max-width: 98vw !important;
+    width: 98vw !important;
+    min-width: unset !important;
+    padding: 0.5rem 0.2rem !important;
+  }
+  .review-content {
+    font-size: 0.95rem !important;
+    padding: 0.5rem 0.2rem;
+  }
+  .review-author,
+  .review-name,
+  .review-date {
+    font-size: 0.95rem !important;
+  }
+  .faq-section,
+  .faq_page {
+    padding: 0.5rem 0.2rem !important;
+    max-width: 99vw !important;
+  }
+  .faq-dropdown {
+    font-size: 0.95rem !important;
+  }
+  .pricing-card {
+    min-width: unset !important;
+    max-width: 99vw !important;
+    width: 99vw !important;
+    padding: 10px 2px !important;
+  }
+  .mission-image,
+  .vision-image {
+    width: 98vw !important;
+    height: auto !important;
+    margin: 0 auto 0.5rem auto !important;
+    float: none !important;
+    display: block !important;
+  }
+  .carousel-image-container {
+    height: auto !important;
+    min-height: unset !important;
+  }
+}
+
+/* Prevent horizontal scroll on mobile */
+html, body {
+  overflow-x: hidden;
+}
