@@ -21,11 +21,11 @@ function HeroSection() {
                 <p className="hero-subtitle">
                     Bridging the gap between mind and body through healing touch 
                 </p>
-                 <button className="letter-dance-button">
+                 <a className="letter-dance-button" href="https://calendar.app.google/gCrXv8HcRArfms6z8">
                     {"Book Now".split("").map((char, index) => (
                     <span key={index} style={{ "--i": index + 1 }}>{char}</span>
                     ))}
-                </button>       
+                </a>
             </div>
 
         </section>
