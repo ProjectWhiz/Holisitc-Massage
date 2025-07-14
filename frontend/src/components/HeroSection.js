@@ -21,7 +21,13 @@ function HeroSection() {
                 <p className="hero-subtitle">
                     Bridging the gap between mind and body through healing touch 
                 </p>
+                 <button className="letter-dance-button">
+                    {"Book Now".split("").map((char, index) => (
+                    <span key={index} style={{ "--i": index + 1 }}>{char}</span>
+                    ))}
+                </button>       
             </div>
+
         </section>
     );
 }

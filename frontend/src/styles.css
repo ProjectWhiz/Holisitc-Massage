@@ -1782,3 +1782,40 @@ img, video, .mission-image, .vision-image, .impact-card-image {
 html, body {
   overflow-x: hidden;
 }
+
+
+.letter-dance-button {
+  background: #0f0f0f;
+  border: none;
+  border-radius: 25px;
+  padding: 1rem 2rem;
+  font-size: 1rem;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  overflow: hidden;
+  position: relative;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.letter-dance-button span {
+  display: inline-block;
+  transform: translateY(0);
+  transition: transform 0.3s ease-in-out;
+}
+
+.letter-dance-button:hover span {
+  animation: bounce 1s ease-in-out 0.5s;
+  animation-delay: calc(0.1s * var(--i));
+}
+
+/* Bounce animation */
+@keyframes bounce {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-8px);
+  }
+}
